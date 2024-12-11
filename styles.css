@@ -1,0 +1,201 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Set the background color of the entire page to black */
+body {
+    background-color: #000000;  /* Black background */
+    color: white;  /* White text for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    text-align: center;
+ background-color: #030303; /* White background for the container */
+ 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header {
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 10px;
+ background-color: #000000;
+
+
+}
+
+.logo {
+    width: 100px;  /* Logo size */
+    height:100px;
+    border-radius: 85%;
+    margin-left: 2px;
+    align-items: center;
+    justify-content: center;
+    border: white 2px solid;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+
+}
+.telegram_logo{
+    width: 300px;  /* Adjust the size of the Telegram logo */
+    height: 200px;
+    object-fit: contain;
+}
+.bio {
+    font-size: 1rem;
+    color: #eeeeee;
+    margin-bottom: 20px;
+}
+
+/* Links */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#logo12{
+    border-radius: 500px;
+}
+#utube{
+    border-radius: 10%;
+}
+#ista{
+    border-radius: 10%;
+}
+.link {
+    display: block;
+    background-color: #0077b5;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link:hover {
+    background-color: #ffff;
+    transform: scale(1.05);
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0 0 20px rgb(255, 255, 255); /* Brighter glow on hover */
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
+/* Link Styling */
+.links .link {
+    display: flex;
+    align-items: center;  /* Aligns the icon and text */
+    gap: 10px;  /* Space between the logo and the text */
+    background-color: #565956;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.links .link-logo {
+    width: 30px;  /* Adjust the size of the Telegram logo */
+    height: 20px;
+    object-fit: contain;
+    
+}
+#log{
+
+    border-radius: 75%;
+}
+.tellogo:hover{
+    box-shadow: 0 0 29px white;
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0 0 20px white;
+}
+.link-logo {
+  
+    object-fit: contain;
+    border-radius: 20%;
+}
+.link{
+    border: white 2px solid;
+}
+
+.links .link:hover {
+    background-color: #191a18;
+    transform: scale(1.05);
+}
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+#dhan{
+    border-radius: 50%;
+}
+
+.icon-bar {
+    display: flex;
+    gap: 20px; /* Space between icons */
+}
+
+.icon img {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+    filter: invert(1); /* White color for icons */
+    transition: transform 0.3s ease;
+}
+
+.icon img:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
+
+.icon img:active {
+    transform: scale(1.1); /* Small effect for active state */
+}
+
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Match width to make it circular */
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Ensures the image fits within the circular boundary */
+    box-shadow: 0 0 10px white; /* Optional: Adds a glow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the logo */
+.logo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0 0 20px white; /* Brighter glow on hover */
+}
